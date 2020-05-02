@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+.wrapper {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    display: block;
+    background-color: #ffffff;
+}
+.logo {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 145px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+.menu { 
+    width: 920px;
+    height: 40px;
+    overflow: auto;
+    background-color: #4c4c4c;
+}
+.menu li {
+    position: relative;
+    display: inline-block;
+}
+.menu ul{
+    justify-content: center;
+}
+.menu a {
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    font-size: 11px;
+}
+.container{
+    margin-top: 40px;
+    overflow: auto;
+    width: 100%;
+    margin-right: 0px;
+}
+.navigator-menu {
+    width: 240px;
+    border-top: #c8c8c8;
+    border-bottom: #c8c8c8;
+    border-right: #c8c8c8;
+    border-left: #c8c8c8;
+    float: left;
+    padding: inherit;
+    margin-top: 0px;
+}
+.navigator-menu a {
+    font-size: 11px;
+    color: #656363;
+    padding: 5px;
+    font-weight: bold;
+    border-left: 5px;
+    display: block;
+}
+.navigator-menu li {
+    width: 240px;
+    margin: 0px;
+    border-left: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-top: 1px solid #c8c8c8;
+}
+.navigator-menu ul {
+    color #656363;
+}
+div .main{
+    float: right;
+    text-align: center;
+}
+.image{
+    width: 620px;
+    border: 1px solid #c8c8c8;
+}
+p{
+    width: 580px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 10px;
+    padding: 10px;
+}
+ .footer li{
+    height: 40px;
+    font-size: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+    position:relative;
+    box-sizing: border-box;
+}
+ .footer {
+    width: 920px;
+    background: #e1e1e1;  
+    overflow: auto;
+}
+a {
+    color: black;
+}
+.copy-right {
+    float: right;
+}
+ul a:hover {
+    color: #ffe;
+    background-color: #444444;
+}
